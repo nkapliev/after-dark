@@ -128,13 +128,14 @@ brew install hugo
 
 Install [`elinks`](http://elinks.or.cz/) (optional) and then run the [install script](https://github.com/comfusion/after-dark/blob/master/bin/install.sh) located in the theme's `bin` directory.
 
+Or simply run the following from your console emulator:
+
 ```
 curl -sL https://git.io/v906l | sh
 ```
 
-Windows users unable to run the above may use [Cmder](http://cmder.net/) (full) to gain access to a suitable console emulator. Be aware of [the risks of `curl | sh`](https://spin.atomicobject.com/2016/12/12/security-spectrum-curl-sh/) before ever running a script over a network.
-
-**Note**: Script will run `hugo serve` as a backgrounded process. To kill the process get the `PID` with `lsof -n -i4TCP:1337` and then `kill -9` followed by the process identifier.
+**Note:** Be aware of [the risks of `curl | sh`](https://spin.atomicobject.com/2016/12/12/security-spectrum-curl-sh/) when running scripts over a network.
+**Tip:** Windows users can use [Cmder](http://cmder.net/) (full) to gain access to a suitable console emulator for running bash scripts.
 
 ## Customizing
 
@@ -426,6 +427,15 @@ Use it in your markdown files like:
 Additional theme-provided shortcodes at your disposal:
 
 - `figure` - Similar to the Hugo built-in, but with [Intelligent Lazy Loading](#intelligent-lazy-loading), an adjusted caption title and smaller caption text.
+
+Also included are a number of shortcodes for [hackcss components](http://hackcss.com/) which function across After Dark [theme variants](#theme-variants):
+
+- `hackcss-alert` - Provides themed alert boxes. See `hackcss-alert.html` for usage notes.
+- `hackcss-button` - Provides themed buttons. See `hackcss-button.html` for usage notes.
+- `hackcss-buttongroup` - Allows buttons to be grouped together. See `hackcss-buttongroup.html` for usage notes.
+- `hackcss-card` - Provides themed card element. See `hackcss-card.html` for usage notes.
+- `hackcss-progress` - Provides themed progress meter. See `hackcss-progress.html` for usage notes.
+- `hackcss-throbber` - Provides themed loading indicator. See `hackcss-throbber.html` for usage notes.
 
 To create your own custom shortcodes add a `layouts/shortcodes` directory to your site, place your shortcodes within and start using them in your markdown content.
 
