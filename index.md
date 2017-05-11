@@ -124,22 +124,18 @@ Head to [Hack Cabin](https://hackcabin.com) for a **live example** running on <a
 
 ## Getting Started
 
-[Install Hugo](https://gohugo.io/#action) on your machine. Instructions for [Homebrew](https://brew.sh/) on macOS:
+[Install Hugo](https://gohugo.io/#action) and [elinks](http://elinks.or.cz/) on your machine. Instructions for [Homebrew](https://brew.sh/) on macOS:
 
 ```shell
 brew install hugo
+brew install elinks
 ```
 
-Install [`elinks`](http://elinks.or.cz/) (optional) and then run the [install script](https://github.com/comfusion/after-dark/blob/master/bin/install.sh) located in the theme's `bin` directory.
+Then just paste this into a terminal:
 
-Or simply run the following from your console emulator:
-
+```shell
+curl -s https://raw.githubusercontent.com/comfusion/after-dark/master/bin/install.sh | bash
 ```
-curl -sL https://git.io/v906l | sh
-```
-
-**Note:** Be aware of [the risks of `curl | sh`](https://spin.atomicobject.com/2016/12/12/security-spectrum-curl-sh/) when running scripts over a network.
-**Tip:** Windows users can use [Cmder](http://cmder.net/) (full) to gain access to a suitable console emulator for running bash scripts.
 
 ## Customizing
 
@@ -450,8 +446,6 @@ Reference the Hugo docs for [shortcode usage instructions](https://gohugo.io/ext
 Provide a richer experience when sharing code snippets on your site. After Dark provides opt-in support for code highlighting using the lovely [One Dark](https://github.com/atom/one-dark-syntaxc) and [One Light](https://github.com/atom/one-light-syntax) syntax themes for Pygments.
 
 ![Syntax Highlighting screenshot](https://raw.githubusercontent.com/comfusion/after-dark/d98d68e/images/docs/feat-syntax-highlighting.png "Syntax Highlighting using Atom One Pygments")
-
-**Why not use Highlight.js?** Given After Dark's _Inclusive Design_ goal, use of a JS-based solution would degrade support for <kbd>terminal</kbd> browsers. As an opt-in feature however, your approach to Syntax Highlighting is at your discretion. Go nuts!
 
 To set-up syntax highlighting for your After Dark site:
 
