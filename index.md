@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/comfusion/after-dark/master/images/minimal-mac.png" title="After Dark running on a MacBook and iPhone" alt="After Dark theme screenshots">
+</p>
+
+<p align="center">
   <a href="https://www.npmjs.com/package/after-dark"><img src="https://img.shields.io/npm/dm/after-dark.svg" alt="NPM downloads per month"></a>
   <a href="https://www.npmjs.com/package/after-dark"><img src="https://img.shields.io/npm/v/after-dark.svg" alt="Latest NPM version"></a>
   <a href="https://github.com/comfusion/after-dark/blob/master/LICENSE"><img src="https://img.shields.io/github/license/comfusion/after-dark.svg" alt="Project license"></a>
@@ -193,6 +197,8 @@ To activate lazy loading with [lazysizes], add `lazyload` to the `class` attribu
 </iframe>
 ```
 
+To help get you started, After Dark [includes a Shortcode](#shortcodes) for creating lazy-loaded `figure` elements within your markdown content.
+
 Additional information and examples, including how to set-up and use LQIP (Low-Quality Image Placeholders), are available on the [lazysizes] repository on GitHub.
 
 ### Related Content
@@ -320,7 +326,9 @@ Though it's possible to block search indexing from a `robots.txt` file, After Da
 - Taxonomy Pages (e.g. Category and Tag listings)
 - Taxonomy Terms Pages (e.g. Pages listing taxonomies)
 
-To customize default blocking configure the `noindex_kinds` setting in the `[params]` section of your `config.toml`. For example, if you want to enable crawling for sections appearing in [Section Menu](#adding-a-section-menu), add the following to your configuration file:
+To customize default blocking configure the `noindex_kinds` setting in the `[params]` section of your `config.toml`.
+
+For example, if you want to enable crawling for sections appearing in [Section Menu](#adding-a-section-menu), add the following to your configuration file:
 
 ```
 [params]
@@ -361,7 +369,7 @@ next = "/series/learn-to-code/part-three/"
 
 Link Types are commonly shown at the top of the page in terminal browsers as auxiliary means of navigation and may help crawlers better understand relationships within your content.
 
-Learn more about [link types](http://devdocs.io/html/link_types) and how to [custom taxonomies](https://gohugo.io/taxonomies/overview/).
+Learn more about [link types](http://devdocs.io/html/link_types) and how to [customize Hugo taxonomies](https://gohugo.io/taxonomies/overview/).
 
 #### Meta Keywords
 
