@@ -1,6 +1,3 @@
 <!-- {{/*
 Usage: {{% outbound "TITLE" "URL" %}}
-*/}}-->
-<a target="_blank" href="{{ .Get 1 }}" onclick="trackOutboundLink('{{ .Get 1 | replaceRE "^https?://([^/]+).*" "$1" }}')">
-{{ .Get 0 | markdownify }}
-</a>
+*/}}--><a target="_blank" href="{{ .Get 1 }}" onclick="trackOutboundLink('{{ .Get 1 | replaceRE "^https?://([^/]+).*" "$1" }}')">{{ .Get 0 | markdownify }}</a>
