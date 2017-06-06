@@ -1,3 +1,9 @@
+<h1 align="center">After Dark</h1>
+
+<p align="center">
+  <strong>A robust, elegant dark theme for <a target="intro" href="https://gohugo.io/">Hugo</a>.</strong>
+</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/comfusion/after-dark/master/images/minimal-mac.png" title="After Dark running on a MacBook and iPhone" alt="After Dark theme screenshots">
 </p>
@@ -522,12 +528,11 @@ After Dark comes preinstalled with a tiny SVG favicon embedded into every page. 
 
 **Why SVG?** Simple. They have a smaller file size and are more flexible. SVG favicons can be styled with CSS or even animated with JavaScript. Firefox added support for them in Release 41, which you can preview the current icon until [other browsers](http://caniuse.com/#feat=link-icon-svg) fall in line.
 
-## Contributing
-
-If you've spotted a bug or would like to make an enhancement suggestion, please [open an issue on GitHub](https://github.com/comfusion/after-dark/issues). Build something awesome with After Dark? Have it added to the [After Dark wiki](https://github.com/comfusion/after-dark/wiki) for others to see. For general questions or support, please feel free to [reach out directly](https://comfusionllc.com/contact).
-
 ## License
 
-[ISC](https://github.com/comfusion/after-dark/blob/master/LICENSE)
+Copyright © 2017 Josh Habdas <josh@habd.as>
+This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar. See the COPYING file for more details.
 
 [lazysizes]: https://github.com/aFarkas/lazysizes
