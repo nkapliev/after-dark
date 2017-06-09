@@ -1,9 +1,3 @@
-<h1 align="center">After Dark</h1>
-
-<p align="center">
-  <strong>A robust, elegant dark theme for <a target="intro" href="https://gohugo.io/">Hugo</a>.</strong>
-</p>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/comfusion/after-dark/master/images/minimal-mac.png" title="After Dark running on a MacBook and iPhone" alt="After Dark theme screenshots">
 </p>
