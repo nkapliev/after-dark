@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/after-dark"><img src="https://img.shields.io/npm/dm/after-dark.svg?style=flat-square" alt="NPM downloads per month"></a>
   <a href="https://www.npmjs.com/package/after-dark"><img src="https://img.shields.io/npm/v/after-dark.svg?style=flat-square" alt="Latest NPM version"></a>
-  <a href="https://github.com/comfusion/after-dark/blob/master/LICENSE"><img src="https://img.shields.io/github/license/comfusion/after-dark.svg?style=flat-square" alt="Project license"></a>
+  <a href="https://github.com/comfusion/after-dark/blob/master/COPYING"><img src="https://img.shields.io/github/license/comfusion/after-dark.svg?style=flat-square" alt="Project license"></a>
 </p>
 
 ## Features
@@ -120,7 +120,7 @@
 
 ## Demo & Tutorial
 
-Head to [Hack Cabin](https://hackcabin.com) for a **production example** running on <abbr title="Amazon Web Services">AWS</abbr> and to learn more about the [site architecture](https://hackcabin.com/post/initial-commit/). I've also written a [step-by-step guide](https://go.habd.as/zero-to-http-2) to hosting After Dark based on the way I do it.
+Head to [Hack Cabin](https://hackcabin.com) for a **production example** running on <abbr title="Amazon Web Services">AWS</abbr> and to learn more about the [site architecture](https://hackcabin.com/post/initial-commit/). I've also written a [step-by-step guide](https://go.habd.as/zero-to-http-2) to hosting After Dark on AWS. While you're poking around check out some of the [other sites running After Dark](https://github.com/comfusion/after-dark/wiki).
 
 ## Getting Started
 
@@ -314,7 +314,7 @@ date = "2017-02-02"
 publishdate = "2016-11-21"
 ```
 
-Review the W3C website for more [information on dates and times](https://www.w3.org/TR/html51/infrastructure.html#dates-and-times) for the Web infrastructure.
+In addition to `date` and `publishdate`, it's also possible to set an expiry date. Expired posts will automatically disappear when the site is built, but the content will be retained. To future- or back-date content for expiration, set the `expirydate` field in the front matter.
 
 #### Index Blocking
 
@@ -524,7 +524,7 @@ After Dark comes preinstalled with a tiny SVG favicon embedded into every page. 
 
 ## License
 
-Copyright © 2017 Josh Habdas <josh@habd.as>
+Copyright © 2016-2017 Josh Habdas <josh@habd.as>
 <br>This work is free. You can redistribute it and/or modify it under the
 <br>terms of the Do What The Fuck You Want To Public License, Version 2,
 <br>as published by Sam Hocevar. See the COPYING file for more details.
