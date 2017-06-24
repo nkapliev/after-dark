@@ -41,6 +41,7 @@
     {{ if ge (len $lazylist) 1 }}
       <script async src="/js/lazysizes.min.js"></script>
     {{ end }}
+    <link rel="icon" type="image/png" href="/favicon-240x240.png" sizes="240x240">
   </head>
   {{ $theme_variant := .Site.Params.theme_variant | default "hack dark" }}
   <body class="{{ $theme_variant }} main container">
