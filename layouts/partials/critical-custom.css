@@ -1,1 +1,4 @@
+body > header > nav > a:after {
+    content: none !important;
+}
 
